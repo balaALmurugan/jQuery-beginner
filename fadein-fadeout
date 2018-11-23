@@ -1,0 +1,11 @@
+$(document).ready(function(){  
+$("#s1").click(function(){  
+         $('#d2').fadeIn(5000);
+         $('#d2').fadeOut(5000,"swing");
+    }); 
+    $("p").hover(function(){  
+        $(this).css("background-color", "pink");  
+        }, function(){  
+        $(this).css("background-color", "green");  
+    });   
+}); 
